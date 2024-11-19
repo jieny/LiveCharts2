@@ -8,7 +8,7 @@
     netcore app is out of support, but the latest stable release of SkiaSharp requires it.
     SkiaSharp 3.x removes this target, should we upgrade this view to 3.x?
     -->
-    <TargetFrameworks>net462;netcoreapp3.1</TargetFrameworks>
+    <TargetFrameworks>net8.0-windows</TargetFrameworks>
     <AssemblyName>LiveChartsCore.SkiaSharpView.WPF</AssemblyName>
     <RootNamespace>LiveChartsCore.SkiaSharpView.WPF</RootNamespace>
     <Version>2.0.0-rc4.5</Version>
@@ -33,7 +33,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All"/>
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.1.1" PrivateAssets="All" />
     <PackageReference Include="SkiaSharp.Views.WPF" Version="3.0.0-preview.4.1" />
   </ItemGroup>
 
